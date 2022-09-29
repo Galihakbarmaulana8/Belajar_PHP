@@ -34,13 +34,13 @@ if ($_SESSION['id'] == null) {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="<?=BASE_URL . 'dashboard.php?page=home'?>">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= BASE_URL . 'dashboard.php?page=create' ?>">Add</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="<?= BASE_URL . 'index.php?page=login'?>">Logout</a>
                     </li>
                 </ul>
             </div>
