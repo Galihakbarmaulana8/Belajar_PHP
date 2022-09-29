@@ -47,7 +47,7 @@ $pegawai = mysqli_query($koneksi, "SELECT * FROM pegawai");
                                 <td><?= $p['alamat'] ?></td>
                                 <td>
                                     <a class="btn btn-danger badge">Delete</a>
-                                    <a class="btn btn-info badge" href="<?= BASE_URL . 'dashboard.php?page=edit&id=' . $p['id'] ?>">Edit</a>
+                                    <a class="btn btn-info badge" href="<?= BASE_URL . 'dashboard.php?page=edit&id=' . $p['noid'] ?>">Edit</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
